@@ -1,8 +1,14 @@
 aid: wabi
 name: Wabi
-description: 'Wabi is a company surfaced as a portfolio company of forerunner-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Wabi is a consumer AI mini-app platform — billed as "the first personal
+  software platform" and a "YouTube of apps" — where anyone can create, discover, share,
+  and remix AI-generated mini-apps from a single natural-language prompt while Wabi
+  handles the underlying infrastructure, UI, hosting, and data. Founded by Eugenia
+  Kuyda (founder of the AI companion app Replika) and backed by a roughly $20M pre-seed
+  round (investors include Naval Ravikant, Garry Tan, Justin Kan, and Forerunner Ventures),
+  Wabi is an invite/beta consumer product. As of this profile it publishes no public
+  developer API, SDKs, OpenAPI, or developer documentation — only the consumer web
+  app and its Terms/Privacy pages.'
 url: https://raw.githubusercontent.com/api-evangelist/wabi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - forerunner-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://wabi.ai/opengraph-image.jpg
 tags:
 - Company
 - Ai
+- App Builder
+- No-Code
+- Personal Software
+- Mini Apps
+- Consumer
+- Generative AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://wabi.ai
+- type: SignUp
+  url: https://wabi.ai/app
+- type: TermsOfService
+  url: https://wabi.ai/terms
+- type: PrivacyPolicy
+  url: https://wabi.ai/privacy
+- type: DomainSecurity
+  url: security/wabi-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
